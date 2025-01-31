@@ -7,7 +7,7 @@ const app = express();
 
 // Configuración específica de CORS
 app.use(cors({
-    origin: 'http://localhost:3030', 
+    origin: 'http://examen-phi-snowy.vercel.app', 
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     allowedHeaders: ['Content-Type', 'Authorization'],
     credentials: true
