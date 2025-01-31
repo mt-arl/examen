@@ -5,7 +5,7 @@ const userController = require('../controllers/userController');
 
 
 
-// Delete vinil
+// get vinil
 router.get('/:id', userController.getVinilById);
 
 
